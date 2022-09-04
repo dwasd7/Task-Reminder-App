@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background-color: rgb(255, 254, 254);
+  max-width: 1000px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 600px;
+  border: 14px solid rgb(0, 0, 0);
+  padding: 70px;
+  border-radius: 10px;
+}
+
+.Button_Layout {
+  color: rgb(133, 10, 10);
+  display: flex;
+  font-variant: small-caps;
+  font-size: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+.NoTasks{
+  text-align: center;
+}
+
+.title{
+  color: rgb(133, 10, 10);
+  font-size: 30px;
+  font-family: "Blippo";
+  text-align: center;
+}
+
+.intrs{
+  text-align: center;
+  color: rgb(100, 3, 3);
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "fantasy";
+  align-items: center;
+}
+
+.btn  {
+  background-color: #f14a2c;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 100px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  background: #faaa92;
+  margin: 5px;
+  padding: 20px 40px;
+  cursor: pointer;
+  border-radius: 100px; 
+}
+
+.task.reminder {
+  border-left: 5px solid rgba(240, 2, 2, 0.993);
+  border-radius: 100px; 
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Input_Container {
+  margin-bottom: 40px;
+}
+
+.Input_Layout {
+  color:rgb(119, 1, 1);
+  font-size: 17px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.Input_Layout label {
+  display: block;
+}
+
+.Input_Layout input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.check_reminder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.check_reminder label {
+  flex: 1;
+}
+
+.check_reminder input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
